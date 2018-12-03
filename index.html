@@ -3,72 +3,83 @@
 	<head>
 		<meta charset ="UTF-8">
 		<title> Strona testowa </title>
+		<link rel="stylesheet" href="styles.css">
 	</head>
 	<body>
 
-		<h1> Pierwszy nagłówek </h1>
+		<div>
+			<h1> Pierwszy nagłówek </h1>
+            <ul id="menu">
+                <li><a class ="menu" href= "#" >Home</a></li>
+                <li><a class ="menu" href = "http://google.com" >Search</a></li>
+                <li><a class ="menu" href ="#about">About</a></li>
+            </ul>
+		</div>
 		<h6> Drugi nagłówek</h6>
-		<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
+		<div>
+            <p class = "content"> Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
 			Morbi sollicitudin turpis fringilla gravida lacinia.<br>
 			Aenean quis porta nibh.<br>
 			Integer rutrum finibus nunc, sed dignissim neque tempor egestas. Nulla facilisi. Vestibulum interdum, massa a ultrices tempus, elit sapien vulputate ante, quis dignissim ante nisl at lorem. <br>
 			Aliquam eu nibh eget felis sagittis lacinia vitae eget sem. Proin sed elementum ligula, at varius libero. Praesent tincidunt tincidunt dui ac egestas. Nulla facilisi. Maecenas ac orci eget tellus malesuada egestas. Integer tincidunt vestibulum sagittis.
 
 		</p>
+        </div>
 
-		<p>Zajęcia z tworzenia nowoczesnych aplikacji internetowych są </p>
-	<ol>
+		<div class = "content">
+            <p>
+            Zajęcia z tworzenia nowoczesnych aplikacji internetowych są
+        </p>
+	<ol id = "list">
 		<li>Wspaniałe</li>
 		<li>Genialne</li>
 		<li>Fenomalne</li>
 	</ol>
-	<img src="zdj1.jpeg">
-		<br>
-	<a href="http://eelslap.com/">Something amazing inside...</a>
-		<br>
-		<a href="http://www.staggeringbeauty.com/">Something amazing inside...</a>
-		<br>
-	<div>
+            Which numbbbbber is your favourite?
+            <select>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+
+            </select>
+
+        </div>
+
+        <div class = "new">
+
+            <img id = "photo" src="zdj1.jpeg">
+
+            <div id = "links">
+                <a href="http://eelslap.com/">Something amazing inside...</a>
+                <a href="http://www.staggeringbeauty.com/">Something amazing inside...</a>
+
+            </div>
+
 		<label>
 		<input type="checkbox"
 			   name="opcja"
 			   value="Opcja1"
-		/> Opcja 1
-		</label>
-		<label>
-			Which numbbbbber is your favourite?
-			<select>
-				<option value="1">1</option>
-				<option value="2">2</option>
-				<option value="3">3</option>
-				<option value="4">4</option>
+		/> Opcja 1 </label>
 
-			</select>
-		</label>
-	</div>
-	<div>
 		<label>
 			<input type="checkbox"
 				   name="opcja"
 				   value="Opcja2"
-			/> Opcja 2
-		</label>
-	</div>
-		<div>
+			/> Opcja 2 </label>
+
 			<label>
 			<input type="checkbox"
 				   name="opcja"
 				   value="Opcja3"
-			/> Opcja 3
-			</label>
-		</div>
-		<div>
+			/> Opcja 3 </label>
+
 		<label>
 			<input type="checkbox"
 				   name="opcja"
 				   value="Opcja4"
-			/> Opcja 4
-		</label>
-		</div>
+			/> Opcja 4 </label>
+
+        </div>
 	</body>
 </html>

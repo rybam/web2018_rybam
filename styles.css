@@ -1,0 +1,89 @@
+div > h1 {
+
+text-align: center;
+color: blueviolet;
+}
+
+#menu {
+    display: block;
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    margin: 3px;
+    border: gold 5px solid;
+    width: 300px;
+
+
+}
+li {
+    list-style:none;
+    display:block;
+}
+.menu {
+    display: block;
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    border: black 5px solid;
+    width: 200px;
+
+}
+h6 {
+    float: right;
+    color: darkblue;
+    font-weight: bold
+}
+p {
+  text-align: center;
+}
+
+body {
+background-color: bisque;
+
+}
+.content {
+    float: right;
+    background-color: antiquewhite;
+    display: block;
+
+}
+
+#list {
+    text-align: center;
+    color: blueviolet;
+
+}
+
+#photo {
+
+    display:block;
+    margin: 50px;
+    border: black 10px solid;
+    float: left;
+
+
+
+}
+
+.new {
+    float: left;
+    display: block;
+
+}
+#links {
+    display: block;
+    margin: 20px;
+    margin-top: 50px;
+    border: darkblue 5px solid;
+    float: left;
+
+}
+label {
+    display: block;
+}
+
+button:hover {
+
+    border: 5px solid green;
+
+}
